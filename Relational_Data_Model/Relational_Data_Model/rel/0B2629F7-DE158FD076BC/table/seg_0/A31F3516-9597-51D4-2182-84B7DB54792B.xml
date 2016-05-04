@@ -1,0 +1,224 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="A31F3516-9597-51D4-2182-84B7DB54792B" directorySegmentName="seg_0" name="ORDER_DETAILS">
+   <createdBy>Srinivas</createdBy>
+   <createdTime>2016-03-22 21:37:28 UTC</createdTime>
+   <changedBy>Srinivas</changedBy>
+   <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+   <ownerDesignName>Relational_Data_Model</ownerDesignName>
+   <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+   <pkName>SYS_C007406</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="PURCHASE_ID" id="D231511B-C985-429B-15A2-C5BB4DDB2693">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="BATCH_ID" id="2A4BF525-22E5-F224-D950-142EDD7E5FE4">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SHIPPING_ID" id="B36E04DD-C193-5A1A-1429-5E3DA9045E90">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="BILL_OF_LADING" id="EBDDC064-8B69-A3C7-434B-2723F8C70BBF">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="DAYS_IN_WAREHOUSE" id="8CC1A857-CA70-11A8-8B94-4A8190B07377">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STREET" id="28D1E769-2D57-8998-D336-CCDCDD4E9619">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CITY" id="F1B2F7C9-F1B1-ADFC-E616-1268119A87F0">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STATE_CODE" id="E2E2D6FE-9654-5CBD-5923-BD5D2B0E3C1F">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="SHIPPING_DATE" id="2592684F-2728-95D2-45A1-1AF469AD5285">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FIELD_ID" id="2090D96F-3753-AAA4-1C69-F0142D328EE2">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <delegate>FE06D046-E8C6-99C0-9631-D150C95800F5</delegate>
+         <associations>
+            <colAssociation fkAssociation="A1C89D42-B468-949D-95DF-506C12ABFB3F" referredColumn="FE06D046-E8C6-99C0-9631-D150C95800F5"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUSTOMER_ID" id="321FBDEC-771C-3CA7-D6A8-77CE587BFB3E">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <delegate>041189D8-A229-C5B2-0E68-50265B3DB928</delegate>
+         <associations>
+            <colAssociation fkAssociation="6D0D59F7-CDAD-9DC1-3A92-12CE67671C9D" referredColumn="041189D8-A229-C5B2-0E68-50265B3DB928"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2C28BE87-3BB8-0BAF-FA73-D0E33F47FE20" name="SYS_C007406">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="D231511B-C985-429B-15A2-C5BB4DDB2693"/>
+            <colUsage columnID="2A4BF525-22E5-F224-D950-142EDD7E5FE4"/>
+            <colUsage columnID="B36E04DD-C193-5A1A-1429-5E3DA9045E90"/>
+            <colUsage columnID="EBDDC064-8B69-A3C7-434B-2723F8C70BBF"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="727BCAD1-E261-9B51-B318-44111C4C3581" name="IX_SYS_C007406">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+         <indexState>Unique Plain Index</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="D231511B-C985-429B-15A2-C5BB4DDB2693"/>
+            <colUsage columnID="2A4BF525-22E5-F224-D950-142EDD7E5FE4"/>
+            <colUsage columnID="B36E04DD-C193-5A1A-1429-5E3DA9045E90"/>
+            <colUsage columnID="EBDDC064-8B69-A3C7-434B-2723F8C70BBF"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CE5A4399-2CFF-C4B2-8F2B-4AC751445765" name="ORDER_DETAILS_FK2">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="321FBDEC-771C-3CA7-D6A8-77CE587BFB3E"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="ECF3C684-2B12-4FCB-A0F0-5F9E0605EB48" name="ORDER_DETAILS_FK1">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="2090D96F-3753-AAA4-1C69-F0142D328EE2"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

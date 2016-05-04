@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="PRJ" id="7521313D-42F5-7CAC-902A-0857578E1B20" directorySegmentName="seg_0">
+   <createdBy>Srinivas</createdBy>
+   <createdTime>2016-03-22 21:37:24 UTC</createdTime>
+   <changedBy>Srinivas</changedBy>
+   <changedTime>2016-03-22 21:37:25 UTC</changedTime>
+   <ownerDesignName>Relational_Data_Model</ownerDesignName>
+   <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+   <privileges>UNLIMITED TABLESPACE</privileges>
+   <profile>DEFAULT</profile>
+</UserOraclev10g>

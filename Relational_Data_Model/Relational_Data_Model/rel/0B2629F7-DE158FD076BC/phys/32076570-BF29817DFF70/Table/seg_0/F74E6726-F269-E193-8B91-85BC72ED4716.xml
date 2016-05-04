@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="USES" id="F74E6726-F269-E193-8B91-85BC72ED4716" directorySegmentName="seg_0">
+   <createdBy>Srinivas</createdBy>
+   <createdTime>2016-03-22 21:37:28 UTC</createdTime>
+   <changedBy>Srinivas</changedBy>
+   <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+   <ownerDesignName>Relational_Data_Model</ownerDesignName>
+   <logging>YES</logging>
+   <partitionedRowMovement>DISABLE</partitionedRowMovement>
+   <segment>D6119015-2240-28BA-0D18-A120830AEF1C</segment>
+   <tableSpace>DFFC457B-B804-2199-1730-4AF7437DE214</tableSpace>
+   <columnProxies>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="MANUFACTURER_PRODUCT_CODE" id="0CBC66C6-74E7-5EB1-137F-8AA12BC6F9FF">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+      </ColumnProxy>
+      <ColumnProxy class="oracle.dbtools.crest.model.design.storage.oracle.v11g.ColumnProxyOraclev11g" name="FIELD_ID" id="DA3FCFF6-B469-323C-A9F6-D8676C9872EC">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+      </ColumnProxy>
+   </columnProxies>
+   <foreignKeys>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="USES_FK2" id="10435203-A104-DCEB-80D1-0F45489A5B17">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+      </ForeignKey>
+      <ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="USES_FK1" id="A32E1067-BC51-B1D4-A3CD-DC1D6E121397">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+      </ForeignKey>
+   </foreignKeys>
+</TableProxyOraclev11g>

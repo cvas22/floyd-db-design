@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="TSpace" objectID="DFFC457B-B804-2199-1730-4AF7437DE214" name="SYSTEM" seqName="seg_0"/>
+   <object objectType="User" objectID="7521313D-42F5-7CAC-902A-0857578E1B20" name="PRJ" seqName="seg_0"/>
+   <object objectType="Table" objectID="4B2D3192-8EB7-4EAB-C1DA-C47B01FC3764" name="FARMER" seqName="seg_0"/>
+   <object objectType="Table" objectID="4BED7DA0-DF74-9EA3-FB1E-F43F96385278" name="CUSTOMER" seqName="seg_0"/>
+   <object objectType="Table" objectID="7F2F95B2-DC8B-FAE0-CEA9-3CCE5D10B8F8" name="CHEMICAL" seqName="seg_0"/>
+   <object objectType="Table" objectID="A31F3516-9597-51D4-2182-84B7DB54792B" name="ORDER_DETAILS" seqName="seg_0"/>
+   <object objectType="Table" objectID="DAEF03BF-4015-29A3-E0D7-EB851711F029" name="CUSTOMER_ADDRESS" seqName="seg_0"/>
+   <object objectType="Table" objectID="E4C28400-D084-62BB-2F67-C8C30C6AD78D" name="FIELD" seqName="seg_0"/>
+   <object objectType="Table" objectID="F74E6726-F269-E193-8B91-85BC72ED4716" name="USES" seqName="seg_0"/>
+   <object objectType="Segment" objectID="D6119015-2240-28BA-0D18-A120830AEF1C" name="Segment1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="50BDCD52-FB89-3CD2-A727-BD57315B9ED7" name="Segment8" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

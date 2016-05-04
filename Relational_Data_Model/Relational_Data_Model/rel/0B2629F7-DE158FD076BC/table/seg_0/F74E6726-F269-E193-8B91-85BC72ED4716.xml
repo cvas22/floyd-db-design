@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="F74E6726-F269-E193-8B91-85BC72ED4716" directorySegmentName="seg_0" name="USES">
+   <createdBy>Srinivas</createdBy>
+   <createdTime>2016-03-22 21:37:28 UTC</createdTime>
+   <changedBy>Srinivas</changedBy>
+   <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+   <ownerDesignName>Relational_Data_Model</ownerDesignName>
+   <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FIELD_ID" id="DA3FCFF6-B469-323C-A9F6-D8676C9872EC">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <delegate>FE06D046-E8C6-99C0-9631-D150C95800F5</delegate>
+         <associations>
+            <colAssociation fkAssociation="645CC7EB-BEE0-A401-11D3-4C77BE946850" referredColumn="FE06D046-E8C6-99C0-9631-D150C95800F5"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="MANUFACTURER_PRODUCT_CODE" id="0CBC66C6-74E7-5EB1-137F-8AA12BC6F9FF">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <delegate>BEF60044-B22B-4DDE-3718-27613B2BC9B2</delegate>
+         <associations>
+            <colAssociation fkAssociation="EC5BD021-3B88-31B7-3789-B6D79BEDC437" referredColumn="BEF60044-B22B-4DDE-3718-27613B2BC9B2"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A32E1067-BC51-B1D4-A3CD-DC1D6E121397" name="USES_FK1">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="DA3FCFF6-B469-323C-A9F6-D8676C9872EC"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="10435203-A104-DCEB-80D1-0F45489A5B17" name="USES_FK2">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="0CBC66C6-74E7-5EB1-137F-8AA12BC6F9FF"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

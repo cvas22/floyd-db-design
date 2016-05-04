@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="4BED7DA0-DF74-9EA3-FB1E-F43F96385278" directorySegmentName="seg_0" name="CUSTOMER">
+   <createdBy>Srinivas</createdBy>
+   <createdTime>2016-03-22 21:37:28 UTC</createdTime>
+   <changedBy>Srinivas</changedBy>
+   <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+   <ownerDesignName>Relational_Data_Model</ownerDesignName>
+   <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+   <pkName>CUSTOMER_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="CUSTOMER_ID" id="041189D8-A229-C5B2-0E68-50265B3DB928">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FIRST_NAME" id="9D220817-08DA-7D89-6964-3408DA55235F">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="LAST_NAME" id="E898C48C-5537-E111-3E75-DFAA3EDF6E9E">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7029A267-A9E7-23CA-2AB2-CE5973F1B7B0" name="CUSTOMER_PK">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="041189D8-A229-C5B2-0E68-50265B3DB928"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="E4C28400-D084-62BB-2F67-C8C30C6AD78D" directorySegmentName="seg_0" name="FIELD">
+   <createdBy>Srinivas</createdBy>
+   <createdTime>2016-03-22 21:37:28 UTC</createdTime>
+   <changedBy>Srinivas</changedBy>
+   <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+   <ownerDesignName>Relational_Data_Model</ownerDesignName>
+   <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+   <pkName>FIELD_PK</pkName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FIELD_ID" id="FE06D046-E8C6-99C0-9631-D150C95800F5">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="COUNTY" id="F44E5CDB-327A-ED1C-0B3A-206AB5CCDEC1">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STATE_CODE" id="75E651D0-EE7F-2D4F-C204-62473163CB85">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="VARIETY" id="80415BB2-8552-3D7D-DEA4-F003ED015AE4">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="HARVEST_DATE" id="F29B1CBD-AEB1-0D63-CABB-E0E9452B3C3C">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="YEAR_GROWN" id="E383A208-BCAF-80A8-03F6-D7E519DA58F7">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>50 BYTE</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ROTTEN_AT_PURCHASE" id="143F5DF5-43F3-3365-163C-3878E2D05456">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+         <dataTypeSize>22</dataTypeSize>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="FARMER_ID" id="95B711C6-FD07-CA80-B6DD-DE0918314BE7">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:29 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>1</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <dataTypeSize>100 BYTE</dataTypeSize>
+         <delegate>F7B65089-906E-70AC-427E-A9A51EABFD94</delegate>
+         <associations>
+            <colAssociation fkAssociation="BC0CEEB5-9B17-A618-22A6-AEECC6420590" referredColumn="F7B65089-906E-70AC-427E-A9A51EABFD94"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="577697F7-BBE2-3275-A61A-488EDE7D9C06" name="FIELD_PK">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:29 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <schemaObject>5CF0B050-20E7-ABD4-6151-E9B534023D37</schemaObject>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="FE06D046-E8C6-99C0-9631-D150C95800F5"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="2AB90E1E-70E0-C89C-B92D-C806411E59A8" name="FIELD_FK">
+         <createdBy>Srinivas</createdBy>
+         <createdTime>2016-03-22 21:37:30 UTC</createdTime>
+         <changedBy>Srinivas</changedBy>
+         <changedTime>2016-03-22 21:37:30 UTC</changedTime>
+         <ownerDesignName>Relational_Data_Model</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="95B711C6-FD07-CA80-B6DD-DE0918314BE7"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>
